@@ -1,0 +1,19 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "Landing page for trillo",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "mili is my name",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-nightly.2387",
+    "@parcel/transformer-sass": "^2.0.0-nightly.710",
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {}
+}
